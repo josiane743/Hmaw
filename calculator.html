@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Fees - Empowering the Nation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/Logo xhaw.jpg" alt="Empowering the Nation Logo"></a>
+        </div>
+        <button class="menu-toggle">
+            <img src="images/menu-bar-bg.png" alt="Toggle Menu">
+        </button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses-6-month.html">6-Month Courses</a></li>
+                <li><a href="courses-6-week.html">6-Week Courses</a></li>
+                <li><a href="calculator.html" class="active">Fees</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <h1>Calculate Your Fees</h1> </div>
+        
+        <div class="container">
+            <a href="index.html" class="back-link">&larr; Back to Home</a>
+            <p>Select the courses you are interested in to see the estimated total with discounts.</p>
+
+            <form id="calculator-form">
+                <div class="courses-selection">
+                    <h3>6-Month Courses (1500 Rands)</h3>
+                    <label>
+                        <input type="checkbox" data-price="1500"> First Aid </label>
+                    <label>
+                        <input type="checkbox" data-price="1500"> Sewing </label>
+                    <label>
+                        <input type="checkbox" data-price="1500"> Landscaping </label>
+                    <label>
+                        <input type="checkbox" data-price="1500"> Life Skills </label>
+
+                    <h3 style="margin-top: 30px;">6-Week Courses (750 Rands)</h3>
+                    <label>
+                        <input type="checkbox" data-price="750"> Child Minding </label>
+                    <label>
+                        <input type="checkbox" data-price="750"> Cooking </label>
+                    <label>
+                        <input type="checkbox" data-price="750"> Garden Maintenance </label>
+                </div>
+
+                <div class="quote-summary">
+                    <h3>Quote Summary</h3>
+                    <p>Number of courses: <span id="count">0</span></p>
+                    <p>Subtotal: <span id="subtotal">0.00 Rands</span></p>
+                    <p>Discount: <span id="discount">- 0.00 Rands</span></p>
+                    <p>VAT (15%): <span id="vat">0.00 Rands</span></p>
+                    <h4>Estimated Total: <span id="total">0.00 Rands</span></h4>
+                    <a href="contact.html" class="btn" style="width: 100%; text-align: center; margin-top: 20px;">Request This Quote</a>
+                </div>
+            </form>
+
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-logo">
+            <img src="images/Logo xhaw.jpg" alt="Empowering the Nation Logo">
+        </div>
+        <p>Established in 2022 in Johannesburg. Hundreds of domestic workers and gardeners have been trained through our 6-month and 6-week programs.</p>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">Contact</a></li>
+            <li><a href="courses-6-month.html">6-Month Courses</a></li>
+            <li><a href="courses-6-week.html">6-Week Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
